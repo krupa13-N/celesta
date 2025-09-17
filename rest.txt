@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h1>Welcome to Our Restaurant</h1>
+            <p>We serve delicious food in a cozy atmosphere.</p>
+            <button>Make a Reservation</button>
+        </section>
+        <section id="menu">
+            <h2>Our Menu</h2>
+            <ul>
+                <li>
+                    <h3>Appetizers</h3>
+                    <p>Bruschetta, $8</p>
+                    <p>Spinach and Artichoke Dip, $10</p>
+                </li>
+                <li>
+                    <h3>Entrees</h3>
+                    <p>Grilled Steak, $25</p>
+                    <p>Pan-Seared Salmon, $22</p>
+                </li>
+            </ul>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We are a team of passionate chefs and servers dedicated to providing excellent service and food.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Phone: 555-555-5555</p>
+            <p>Email: [example@example.com](mailto:example@example.com)</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Our Restaurant</p>
+    </footer>
+</body>
+</html>
